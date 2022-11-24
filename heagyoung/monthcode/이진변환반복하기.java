@@ -6,7 +6,8 @@ class Solution {
         int turn=0;
         String no_ze="";
         int len=-1;
-        
+        //앗 얘는 주석이 없네요 있는 숫자들중 0을 포함하고 있으면 없애서 없앤만큼 길이가 짧아지니까 그것을 0의 개숫에 더하고
+        //길이만큼을 다시 2진수변환해서 앞 순서 반복입니다!
         while(true){
             if(s.equals("1"))
                 break;
@@ -31,4 +32,5 @@ class Solution {
         answer[1]=delzero;
         return answer;
     }
+    
 }
